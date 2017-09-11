@@ -24,7 +24,51 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.12"
-        android:text="TextView" />
+        android:layout_weight="0.1"
+        android:gravity="left|center_vertical"
+        android:text="@string/emailIn"
+        android:textColor="#007799"
+        android:textSize="30sp"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/Emailedittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType=""
+        android:text="@string/EmailEnter"
+        tools:ignore="TextFields" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:textColor="#007799"
+        android:textSize="30sp"
+        android:gravity="left|center"
+        android:text="@string/PasswdIn"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/Passwdedittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/PasswdEnter" />
+
+    <Button
+        android:id="@+id/LogBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.1"
+        android:text="Log In"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>
